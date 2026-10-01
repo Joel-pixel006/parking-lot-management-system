@@ -1,0 +1,11 @@
+# 1. The main folder where our dataset lives
+path: ./dataset
+
+# 2. Where the pictures are located
+# (We are using the same folder for both training and testing to keep it simple)
+train: images
+val: images
+
+# 3. What the AI is looking for
+nc: 1              # "nc" stands for Number of Classes (we only have 1 thing to find)
+names: ['car']     # The name of the thing we are finding
